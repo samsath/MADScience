@@ -1,0 +1,12 @@
+name = data['features'][0]['properties']['name']
+type = data['features'][0]['properties']['networks']
+long = data['features'][0]['geometry']['coordinates'][0]
+lat = data['features'][0]['geometry']['coordinates'][1]
+lines = data['features'][0]['properties']['lines'] #comes out in line initial
+
+data['features'][0] {u'geometry': {u'type': u'Point', u'coordinates': [-0.013071299999987, 51.510716]}, u'type': u'Feature', u'properties': {u'tfl_nlcid': u'850', u'lines': u'L', u'name': u'All Saints', u'tfl_statid': None, u'networks': u'(1:DLR)'}}
+
+JsonObject
+then array called 'features' 
+with jsonobjects in each one containing an array
+
